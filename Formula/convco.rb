@@ -15,6 +15,7 @@ class Convco < Formula
     root_url "https://github.com/hdevalke/convco/releases/download/v0.3.1"
     cellar :any_skip_relocation
     sha256 "a0c3abc4e68481cb2ceb7e4992a8c7d6957b9fd266cc5beb217500d8088059a4" => :x86_64_linux
+    sha256 "7786f32a696630e9fa326b2404f741e199c51b8fe995a4d033c21aea7c20bd40" => :catalina
   end
 
   depends_on "rust" => :build
