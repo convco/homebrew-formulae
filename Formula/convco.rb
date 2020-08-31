@@ -11,6 +11,12 @@ class Convco < Formula
     regex(%r{href=.*?/tag/v?(\d+(?:\.\d+)+)["' >]}i)
   end
 
+  bottle do
+    root_url "https://github.com/hdevalke/convco/releases/download/v0.3.1"
+    cellar :any_skip_relocation
+    sha256 "a0c3abc4e68481cb2ceb7e4992a8c7d6957b9fd266cc5beb217500d8088059a4" => :x86_64_linux
+  end
+
   depends_on "rust" => :build
 
   def install
