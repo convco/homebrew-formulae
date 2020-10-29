@@ -1,9 +1,9 @@
-# Hdevalke Formulae
+# Convco Formulae
 
 ## How do I install these formulae?
-`brew install hdevalke/formulae/<formula>`
+`brew install convco/formulae/<formula>`
 
-Or `brew tap hdevalke/formulae` and then `brew install <formula>`.
+Or `brew tap convco/formulae` and then `brew install <formula>`.
 
 ## Documentation
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
