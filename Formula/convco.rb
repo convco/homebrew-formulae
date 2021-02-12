@@ -18,7 +18,7 @@ class Convco < Formula
     sha256 "7786f32a696630e9fa326b2404f741e199c51b8fe995a4d033c21aea7c20bd40" => :catalina
   end
 
-  depends_on "rust" => :build
+  depends_on "rust" => [:optional, :build]
 
   def install
     system "cargo", "install", *std_cargo_args
