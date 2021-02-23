@@ -11,7 +11,7 @@ class Convco < Formula
     regex(%r{href=.*?/tag/v?(\d+(?:\.\d+)+)["' >]}i)
   end
 
-  depends_on "rust" => [:optional, :build]
+  depends_on "rust" => :build
 
   def install
     system "cargo", "install", *std_cargo_args
