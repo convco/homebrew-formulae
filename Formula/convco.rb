@@ -11,6 +11,7 @@ class Convco < Formula
     regex(%r{href=.*?/tag/v?(\d+(?:\.\d+)+)["' >]}i)
   end
 
+  depends_on "cmake" => :build
   depends_on "rust" => :build
 
   def install
