@@ -12,9 +12,9 @@ class Convco < Formula
   end
 
   bottle do
-    root_url "https://github.com/convco/homebrew-formulae/releases/download/convco-0.3.7"
-    sha256 cellar: :any_skip_relocation, catalina:     "a1de8f4ba72ca919332cdeb9d1cdde33e80173877986d464a7bcd9a093f70c12"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "d62c135f015ff4f30a7f691a04d2986deab8282842bc5694348da12116e7f631"
+    root_url "https://github.com/convco/homebrew-formulae/releases/download/convco-0.3.8"
+    sha256 cellar: :any_skip_relocation, big_sur:      "8650a3c08b9a15adea5a5144fc329cafcfb510cdf6e27a62f46b7e9af3f38207"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "c75ec436b8ccd506f61855b084ea8f5f6c1d7237022c41cef7d8facf27206930"
   end
 
   depends_on "cmake" => :build
